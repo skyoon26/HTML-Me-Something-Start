@@ -58,7 +58,7 @@ li > a {
 #mainHeading { /* assignment requirement */
     font-family: "Abril Fatface";
     font-size: 80px;
-    color: rgb(24, 70, 50);
+    color: red;
     text-align: center;
 }
 
@@ -68,7 +68,7 @@ li > a {
 }
 
 h2 {
-    color: rgb(24, 70, 50);
+    color: rgb(45, 45, 205);
     font-family: "Abril Fatface";
     font-size: 30px;
     text-align: center;
@@ -88,11 +88,12 @@ main {
 }
 
 #testP:hover {
-    text-decoration: rgb(24, 70, 50) dotted underline; /* assignment requirement */
+    text-decoration: green underline; /* assignment requirement */
 }
 
 .funParagraph:hover {
-    background-color: rgba(24, 70, 50, 0.2); /* assignment requirement */
+    background-color: rgba(255, 255, 0, 0.2); /* assignment requirement */
+    color: green;
 }
 
 #projects {
