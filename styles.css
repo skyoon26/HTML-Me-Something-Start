@@ -1,1 +1,145 @@
 /* Write your CSS here! */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 8px; /* assignment requirement */
+    display: block; /* assignment requirement */
+    font-family: "Oswald", sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    background-image: url(images/grid2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0; 
+    width: 100%;
+    background-color: rgba(135, 135, 135, 0.8);
+    z-index: 999;
+    font-size: smaller;
+    text-align: center;
+}
+
+.navOptions > li {
+    display: inline-block;
+    /* this makes it horizontal */
+}
+
+li > a {
+    padding: 8px 20px;
+    /* top and bottom paddings are 8px, right and left are 20px */
+    text-decoration: none;
+    /* this removes link underline */
+    color: black;
+    background-color: white;
+    border: 1px solid rgb(135, 135, 135);
+    border-radius: 5px;
+}
+
+.image-with-shadow-one {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    position: absolute;
+    top: 10%;
+    right: 15%;
+    border: 1px solid rgb(170, 170, 170);
+    box-shadow: -3px 8px rgba(0, 0, 0, 0.3);
+}
+
+#mainHeading { /* assignment requirement */
+    font-family: "Abril Fatface";
+    font-size: 80px;
+    color: rgb(24, 70, 50);
+    text-align: center;
+}
+
+.intro > p {
+    font-size: larger;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(24, 70, 50);
+    font-family: "Abril Fatface";
+    font-size: 30px;
+    text-align: center;
+}
+
+main {
+    height: 40%;
+    width: 60%;
+    /* height and width manipulates the element's box size */
+    padding: 20px 50px;
+    margin: 10% auto;
+    text-align: left;
+    background-color: white;
+    border: 3px dashed rgb(135, 135, 135);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#testP:hover {
+    text-decoration: rgb(24, 70, 50) dotted underline; /* assignment requirement */
+}
+
+.funParagraph:hover {
+    background-color: rgba(24, 70, 50, 0.2); /* assignment requirement */
+}
+
+#projects {
+    height: 40%;
+    width: 60%;
+    padding: 20px 50px;
+    margin: 10% auto;
+    text-align: center;
+    background-color: white;
+    border: 3px dashed rgb(135, 135, 135);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#resume {
+    height: 40%;
+    width: 60%;
+    padding: 20px 50px;
+    margin: 10% auto;
+    text-align: center;
+    background-color: white;
+    border: 3px dashed rgb(135, 135, 135);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+article > section {
+    text-align: left;
+}
+
+#contact {
+    height: 40%;
+    width: 60%;
+    padding: 20px 50px;
+    margin: 10% auto;
+    text-align: center;
+    background-color: white;
+    border: 3px dashed rgb(135, 135, 135);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    text-align: center;
+}
